@@ -56,13 +56,15 @@ st.markdown("""
         padding: 12px;
         }
         .stFileUploader {
-            background-color: #262730 !important;
-            padding: 12px;
-            border-radius: 8px;
-            border: 1px solid #444;
+        background-color: var(--background-color) !important;
+        border: 1px solid var(--secondary-background-color) !important;
+        border-radius: 8px;
+        padding: 12px;
         }
+
         .stFileUploader label {
-            color: #fff !important;
+        color: var(--text-color) !important;
+        font-weight: 500;
         }
         .css-1cpxqw2 {
             background-color: #262730 !important;
