@@ -48,9 +48,12 @@ st.markdown("""
             margin-bottom: 30px;
         }
         .stTextArea textarea {
-            background-color: #1e1e1e !important;
-            color: #fff !important;
-            font-size: 15px;
+        background-color: var(--background-color) !important;
+        color: var(--text-color) !important;
+        font-size: 15px;
+        border-radius: 8px;
+        border: 1px solid var(--secondary-background-color);
+        padding: 12px;
         }
         .stFileUploader {
             background-color: #262730 !important;
